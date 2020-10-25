@@ -1,0 +1,50 @@
+.star-rating {
+  display: flex;
+  flex-wrap: wrap;
+}
+.star {
+  cursor: pointer;
+  -webkit-clip-path: polygon(
+    50% 0%,
+    63% 38%,
+    100% 38%,
+    69% 59%,
+    82% 100%,
+    50% 75%,
+    18% 100%,
+    31% 59%,
+    0% 38%,
+    37% 38%
+  );
+  clip-path: polygon(
+    50% 0%,
+    63% 38%,
+    100% 38%,
+    69% 59%,
+    82% 100%,
+    50% 75%,
+    18% 100%,
+    31% 59%,
+    0% 38%,
+    37% 38%
+  );
+}
+.outer {
+  margin-left: 0.5rem;
+  background-color: rgba(155, 155, 155, 0.8);
+  width: 0.8rem;
+  height: 0.8rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.inner{
+  background-color: #d8d4d4;
+  width: 0.8rem;
+  height: 0.8rem;
+}
+
+.star.selected {
+  background-color: #444444;
+}
+

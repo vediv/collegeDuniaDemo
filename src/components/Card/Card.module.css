@@ -1,0 +1,196 @@
+.gridItem {
+  border-radius: 3.8px;
+  box-shadow: 0 0 19px 0 rgba(68, 68, 68, 0.1);
+  border: solid 0.2px #e4dcdc;
+  background-color: #ffffff;
+  position: relative;
+}
+
+.gridItem:hover {
+  box-shadow: 0.5rem 0.5rem 0.5rem -0.75rem #adadad;
+}
+
+.promotedTag {
+  width: 175px;
+  height: 40px;
+  background: #68a7ff;
+  position: absolute;
+  z-index: 8;
+  right: 0;
+  margin-top: -1.2rem;
+}
+
+.promotedTag:after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 0;
+  height: 0;
+  border-left: 20px solid white;
+  border-top: 20px solid transparent;
+  border-bottom: 20px solid transparent;
+}
+
+.promotedTag > .content {
+  color: white;
+  top: 10px;
+  left: 3rem;
+  position: absolute;
+}
+
+.displayImage{
+  position: relative;
+}
+
+.ratingDiv{
+  background-color: #f5a626;
+  color: #ffffff;
+  position: absolute;
+  right: 2%;
+  margin-top: 2rem;
+  z-index: 100;
+  padding: 0.4rem;
+  text-align: center;
+  font-size: 0.8rem;
+  border-radius: 3.8px;
+}
+
+.tagDiv{
+  position: absolute;
+  z-index: 100;
+  bottom: 10%;
+  text-transform: capitalize;
+}
+
+.tags{
+  padding: 0.4rem;
+  border-radius: 1rem;
+  background-color: white;
+  margin-left: 0.5rem;
+  font-size: 0.8rem;
+}
+
+.rankingDiv{
+  z-index: 100;
+  position: absolute;
+  right: 2%;
+  bottom: 10%;
+  color: white;
+  font-weight: bold;
+  font-size: 0.8rem;
+}
+
+.backImg{
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  border-top: 3.8px;
+  opacity: 0.7;
+}
+
+.descDiv{
+  display: flex;
+  justify-content: space-between;
+}
+
+.gridDesc {
+  width: inherit;
+  display: flex;
+  flex-direction: column;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  box-sizing: border-box;
+  padding-top: 0.675rem;
+  padding-left: 0.625rem;
+  padding-bottom: 0.75rem;
+}
+
+.prodBrand {
+  display: flex;
+  font-size: 0.9rem;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 0.97;
+  letter-spacing: normal;
+  color: #444444;
+}
+
+.prodTitle {
+  margin-top: 0.7rem;
+  font-size: 0.75rem;
+  color: #444444;
+}
+
+.matches{
+  color: #37b396;
+  font-weight: 800;
+}
+
+.offerDiv{
+  background-color: rgb(204, 245, 231);
+  margin-left: -0.625rem;
+  margin-top: 0.5rem;
+  border-top-right-radius: 1rem;
+  border-bottom-right-radius: 1rem;
+}
+
+.secondDiv{
+  padding: 0.625rem;
+  text-align: right;
+}
+
+.prodStrikedPrice {
+  text-decoration: line-through;
+  color: #444444;
+  margin-left: 0.75rem;
+  margin-right: 0.4rem;
+  font-size: 0.8125rem;
+  line-height: 1.46;
+  letter-spacing: 0.005625rem;
+  text-align: left;
+}
+
+.discountDiv{
+  background-color: #dd1c26;
+  font-size: 0.8rem;
+  color: #ffffff;
+  padding: 0.1rem;
+  font-weight: bold;
+}
+
+.discImg{
+  width: 5px;
+  height: 5px;
+  -webkit-border-radius: 2.5px;
+  -moz-border-radius: 2.5px;
+  border-radius: 2.5px;
+  background: white;
+  position: absolute;
+  margin-top: 7px;
+}
+
+.prodPrice {
+  font-size: 1.6rem;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 0.89;
+  letter-spacing: normal;
+  text-align: left;
+  color: #dd1c26;
+}
+
+.feesDiv{
+  font-size: 0.7rem;
+  color: #444444;
+  margin-top: 0.2rem;
+}
+
+.amentiesDiv{
+  color: #37b396;
+  font-size: 0.8rem;
+  font-weight: 800;
+  margin-top: 1.2rem;
+}
