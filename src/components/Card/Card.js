@@ -27,7 +27,7 @@ const Card = (props) => {
 
       <div className={css.displayImage}>
         <div className={css.ratingDiv}> 
-          <span><b>{prodItem.rating}</b>/5</span>
+          <span><b style={{fontSize:"1rem"}}>{prodItem.rating}</b>/5</span>
           <div>{prodItem.rating_remarks}</div>
         </div>
         <div className={css.tagDiv}>
